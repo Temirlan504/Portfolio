@@ -41,11 +41,12 @@ a {
     position: relative;
 }
 
-a:hover {
+/* Links animation */
+a.nav-links:hover {
     color: #8a817c;
 }
 
-a::before {
+a.nav-link::before {
     content: "";
     position: absolute;
     display: block;
@@ -58,7 +59,7 @@ a::before {
     transition: transform 0.3s ease;
 }
 
-a:hover::before {
+a.nav-link:hover::before {
     transform: scaleX(1);
 }
 
