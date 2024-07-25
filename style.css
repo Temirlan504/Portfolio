@@ -315,6 +315,12 @@ section {
     position: relative;
 }
 
+@media screen and (max-width:1137px) {
+    #experience {
+        margin-bottom: 600px;
+    }
+}
+
 .experience-sub-title {
     color: #8a817c;
     font-weight: 600;
@@ -347,4 +353,39 @@ article {
 
 article .icon {
     cursor: default;
+}
+
+/* Projects section */
+#projects {
+    position: relative;
+}
+
+.about-containers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.color-container {
+    background: #eeede8;
+    flex: 1 0 21%;
+}
+
+.project-img {
+    height: 90%;
+    width: 90%;
+    border-radius: 2rem;
+    object-fit: cover;
+}
+
+.project-title {
+    margin: 1rem;
+    color: #8a817c;
+}
+
+.project-btn {
+    color: #f4f3ee;
+    border-color: #f4f3ee;
 }
