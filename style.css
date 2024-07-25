@@ -315,12 +315,6 @@ section {
     position: relative;
 }
 
-@media screen and (max-width:1137px) {
-    #experience {
-        margin-bottom: 600px;
-    }
-}
-
 .experience-sub-title {
     color: #8a817c;
     font-weight: 600;
