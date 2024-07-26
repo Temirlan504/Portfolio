@@ -310,6 +310,12 @@ section {
 }
 
 
+/* Skills Section */
+#skills {
+    position: relative;
+}
+
+
 /* Experience Section */
 #experience {
     position: relative;
