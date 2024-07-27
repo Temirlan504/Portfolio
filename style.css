@@ -371,6 +371,7 @@ article .icon {
 .color-container {
     background: #eeede8;
     flex: 1 0 21%;
+    max-width: 21%;
 }
 
 .project-img {
